@@ -1,0 +1,41 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python caches and build products
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Restricted or generated clinical data
+data/
+datasets/
+raw_data/
+pre_MEDS/
+MEDS_output/
+MEDS_cohort/
+tokenized_datasets/
+
+# Training and inference artifacts
+outputs/
+results/
+checkpoints/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Local editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
